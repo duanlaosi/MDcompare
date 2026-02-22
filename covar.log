@@ -1,0 +1,21 @@
+Covariance analysis log, written Sat Jun  7 14:38:17 2025
+
+Program: covar
+Working directory: /home/duanqi/dq/scripts
+
+Read 5001 frames from /home/duanqi/dq/6ZD3/6ZD3_pdb_triclinic_6_7/6ZD3_pdb_triclinic_md/analysis/traj_mol_rt_cen.xtc (time 0 to 500 ns)
+Read reference structure for fit from /home/duanqi/dq/6ZD3/6ZD3_pdb_triclinic_6_7/6ZD3_pdb_triclinic_md/results/gromacs/step4.1_equilibration.tpr
+Read index groups from /home/duanqi/dq/6ZD3/6ZD3_pdb_triclinic_6_7/6ZD3_pdb_triclinic_md/analysis/analysis_index.ndx
+
+Analysis group is 'C-alpha' (183 atoms)
+Fit group is 'C-alpha' (183 atoms)
+Analysis is non-mass weighted
+Fit is non-mass weighted
+Diagonalized the 549x549 covariance matrix
+Trace of the covariance matrix before diagonalizing: 18.1888
+Trace of the covariance matrix after diagonalizing: 18.1888
+
+Wrote 549 eigenvalues to /home/duanqi/dq/6ZD3/6ZD3_pdb_triclinic_6_7/6ZD3_pdb_triclinic_md/analysis/traj_eigenval.xvg
+Wrote reference structure to /home/duanqi/dq/6ZD3/6ZD3_pdb_triclinic_6_7/6ZD3_pdb_triclinic_md/analysis/traj_eigenvec.trr
+Wrote average structure to /home/duanqi/dq/6ZD3/6ZD3_pdb_triclinic_6_7/6ZD3_pdb_triclinic_md/analysis/traj_average.pdb and /home/duanqi/dq/6ZD3/6ZD3_pdb_triclinic_6_7/6ZD3_pdb_triclinic_md/analysis/traj_eigenvec.trr
+Wrote eigenvectors 1 to 549 to /home/duanqi/dq/6ZD3/6ZD3_pdb_triclinic_6_7/6ZD3_pdb_triclinic_md/analysis/traj_eigenvec.trr
